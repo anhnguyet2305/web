@@ -1,1 +1,1 @@
-<? include("bán%20sách.html");
+<? include("lab2.html");
