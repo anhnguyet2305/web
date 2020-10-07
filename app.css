@@ -25,6 +25,7 @@ h1{
     /* viết hoa ,viết thường, viết hoa chữ cái đầu
     uppercase , lowercase, capitalize
      */
+    text-shadow: -5px -5px 3px red;
 
 }
 p{
@@ -35,6 +36,7 @@ p{
     text-align: center;
     /*left , right, center justify*/
     background: antiquewhite;
+    boder: 1px solid deeppink;
 }
 img{
     max-width: 100%;
