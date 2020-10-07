@@ -1,1 +1,1 @@
-<? include("bán sách.html");
+<? include("lab2.html");
