@@ -35,6 +35,7 @@ p{
     text-align: center;
     /*left , right, center justify*/
     background: antiquewhite;
+    boder: 1px solid deeppink;
 }
 img{
     max-width: 100%;
