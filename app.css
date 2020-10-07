@@ -1,0 +1,44 @@
+body{
+    background: no-repeat;
+
+    background-image: url("https://www.pxwall.com/wp-content/uploads/2019/04/4K-Red-HD-Background.jpg");
+    background-size: cover;
+}
+/*  ../ đi lên
+   /.. đi xuống
+   /
+   */
+h1{
+    color: yellowgreen;
+    font-size: 30px;
+    text-align: center;
+    font-family: "Times New Roman";
+
+    font-weight: 100;
+    /*dòng*/
+    line-height: 100px;
+
+    text-decoration: underline overline;
+    /*kiểu gạch chân chữ
+    under line , line-through, overline*/
+    text-transform: capitalize;
+    /* viết hoa ,viết thường, viết hoa chữ cái đầu
+    uppercase , lowercase, capitalize
+     */
+    text-shadow: -5px -5px 3px red;
+
+}
+p{
+    font-size: 16px;
+    line-height: 2.0;
+    color: purple;
+    width: 600px;
+    text-align: center;
+    /*left , right, center justify*/
+    background: antiquewhite;
+    boder: 1px solid deeppink;
+}
+img{
+    max-width: 100%;
+    /*khong bao giờ vượt quá khối chứa nó*/
+}
