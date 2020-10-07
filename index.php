@@ -1,1 +1,1 @@
-<? include("session2.html");
+<? include("lab2.html");
