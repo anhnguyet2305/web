@@ -25,6 +25,7 @@ h1{
     /* viết hoa ,viết thường, viết hoa chữ cái đầu
     uppercase , lowercase, capitalize
      */
+    text-shadow: -5px -5px 3px red;
 
 }
 p{
