@@ -1,0 +1,27 @@
+body{
+    font-family: Arial;
+    width: 700px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 400px;
+    height: 1000px;
+}
+.a1{
+    border-bottom: dashed purple 3px;
+    width: 700px;
+    margin-bottom: 3px;
+    padding-bottom: 20px;
+}
+img{
+    float:left top;
+    width: 120px;
+}
+span{
+
+    float: right;
+    text-align: right;
+    margin-top: 25px;
+}
+i{
+    color: purple;
+}
