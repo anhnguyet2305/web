@@ -4,7 +4,8 @@ body{
     margin-top: 50px;
     margin-bottom: 50px;
     margin-left: 400px;
-    height: 1000px;
+    height: 1500px;
+    max-width: 100%;
 }
 .a1{
     border-bottom: dashed purple 3px;
