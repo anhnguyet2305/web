@@ -113,6 +113,7 @@ img{
     width: 95%;
     height: 50px;
     margin-top: 30px;
+    padding-left: 15px;
 }
 .sub{
     background-color: firebrick;
@@ -135,6 +136,7 @@ i{
 .search{
     width: 95%;
     height: 50px;
+    padding-left: 15px;
 }
 .contenttop{
     padding-bottom: 30px;
