@@ -1,0 +1,347 @@
+body{
+    background-color: #eeeeee;
+    color:#242424;
+    font: 14px Lato;
+    margin: 0 0;
+}
+.header{
+    float: top;
+    display: block;
+    background-image: url("http://pro-theme.com/html/nevica/assets/img/b01.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 403px;
+    position: relative;
+}
+.header-top{
+    float: top;
+    width: 100%;
+    height: 60px;
+    justify-content: space-between;
+    border-bottom: solid 1px #464E56;
+    display: flex;
+}
+.header-list{
+    list-style-type: none;
+    color: #eeeeee;
+    display: flex;
+    margin: auto 180px;
+}
+.header-item{
+    margin: 0 20px;
+}
+.header-item-icoin{
+    padding: 10px;
+    font-size: 16px;
+}
+.link{
+    color: #eeeeee;
+    text-decoration: none;
+}
+.link2{
+    color: #333333;
+    text-decoration: none;
+    font-weight: bold;
+}
+.link:hover{
+    color: #30A8D5;
+}
+.header-mid{
+    width: 100%;
+    height: 110px;
+    display: block;
+    float: top;
+    left: 0;
+    right: 0;
+    position: sticky;
+}
+.toolbar{
+    display: inline-block;
+    position: absolute;
+    margin: 30px 50px;
+}
+.logo{
+    max-height: 80px;
+    max-width: 120px;
+    width: auto;
+    height: auto;
+    margin: 40px 241px;
+}
+.choose-toolbar{
+    list-style-type: none;
+    margin: auto;
+    display: flex;
+}
+.booknow{
+    display: inline-block;
+    color: #eeeeee;
+    width: 125px;
+    height: 38px;
+    background-color: #30A8D5;
+    border-radius: 1px;
+    padding: 0 0 ;
+    margin: auto 20px;
+    cursor: pointer;
+}
+.booknow:hover{
+    background-color: #2aabd2;
+}
+.book{
+    margin: 10px ;
+    padding-left: 15px;
+    font-weight: bold;
+}
+.taptoolbar{
+    margin: auto 10px;
+    font-weight: bold;
+}
+.header-bot{
+    text-align: center;
+    color: #eeeeee;
+    width: auto;
+    height: 60px;
+    float: top;
+    font: 60px "Montserrat SemiBold";
+    margin-top: 30px;
+    padding-bottom: 20px;
+}
+.header-last{
+    text-align: center;
+}
+.header-list-last{
+    text-align: center;
+    list-style-type: none;
+    color: #eeeeee;
+    text-decoration: none;
+}
+.header-list-last:hover{
+    color: #30A8D5;
+}
+.listlast1{
+    color: #eeeeee;
+}
+
+.lar{
+    color: #30A8D5;
+    font-weight: bold;
+}
+.section-main{
+    width: 820px;
+    height: auto;
+    margin: auto ;
+}
+.content-top{
+    width: auto;
+    height: 74px;
+    display: flex;
+    margin-top: 100px;
+}
+select{
+    color: #999999;
+    font-size: 14px;
+    padding: 10px;
+    list-style-type: none;
+    border: none;
+    margin: 25px;
+}
+.inputtext{
+    padding: 10px;
+    margin: 25px;
+}
+.content-body{
+    width: auto;
+    height: auto;
+}
+.body1{
+    width: 1170px;
+    height: 1000px;
+    margin: auto;
+}
+.product{
+    width: 360px;
+    height: 470px;
+    float: left;
+    display: block;
+    padding-right: 14px;
+    padding-left: 14px;
+}
+.product1{
+    border-bottom: #999999 0.5px solid;
+}
+.productpng{
+    display: inline-block;
+    background-size: cover;
+    width: 360px;
+    height: 220px;
+    margin-top: 80px;
+}
+.linkproduct{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 0 0;
+    font-size: 20px;
+}
+.money{
+    color: #30A8D5;
+    font-weight: bold;
+}
+.perday{
+    color: #999999;
+}
+.product-text{
+
+}
+.depict{
+    color: #626262;
+}
+.readmore{
+    padding-top: 20px;
+    text-align: center;
+    display: block;
+    width: 360px;
+    height: 38px;
+    font: 14px Montserrat;
+    font-weight: bold;
+}
+.readmore:hover{
+    background-color: #30A8D5;
+    transition: 0.3s;
+}
+.tabpage{
+    height: 45px;
+    width: 150px;
+    list-style-type: none;
+    display: flex;
+    padding-left: 45%;
+}
+.page1{
+    width: 45px;
+    height: 33px;
+    padding-top: 12px;
+    text-align: center;
+    border: 0.5px solid #999999;
+
+}
+.page2{
+    width: 45px;
+    height: 33px;
+    padding-top: 12px;
+    background-color: #E2B71C;
+    text-align: center;
+    border: 0.1px solid #999999;
+    margin: 0 4px;
+}
+.link4{
+    text-decoration: none;
+    color: #eeeeee;
+}
+.link3{
+    text-decoration: none;
+    color: #333333;
+}
+.link3:hover{
+    background-color: #E2B71C;
+}
+.section-foster{
+    margin-top: 50px;
+    width: auto;
+    height: 583px;
+    background-color: #222222;
+}
+.list-foster{
+    width: 262px;
+    height: 322px;
+    float: left;
+    margin:  98px 56px;
+}
+.logo-foster{
+    max-width: 200px;
+    max-height: 40px;
+}
+.text-foster{
+    color: #999999;
+    text-align: justify;
+    border-bottom: #999999 0.1px solid;
+    padding-bottom: 30px;
+}
+.sub{
+    font-size: 20px;
+    font-weight: bold;
+    color: #eeeeee;
+}
+.ingmail {
+    width: 255px;
+    height: 55px;
+    background-color: #2A2E2F;
+    border: none;
+}
+.icoin_gmail{
+    position: absolute;
+    color: #999999;
+    left: 290px;
+    top: 2027px
+}
+ul{
+    padding: 0 0  ;
+    list-style: none;
+}
+.foster{
+    line-height: 2.1;
+    color: #eeeeee;
+}
+.foster_2{
+    color: #eeeeee;
+    text-decoration: none;
+}
+.foster:hover{
+    color: #E2B71C;
+}
+.foster_2:hover{
+    color: #30A8D5;
+}
+.last_fos{
+    color: #999999;
+    line-height: 2;
+}
+.gmail:hover{
+    color: #30A8D5;
+    border-bottom: solid 1px #30A8D5;
+    transition: 0.4s;
+}
+.phone{
+    font-size: 18px;
+    color: #eeeeee;
+}
+.phone:hover{
+    color: #30A8D5;
+    border-bottom: #30A8D5 2px solid;
+    transition: 0.4s;
+}
+.last_ul{
+    padding-bottom: 20px;
+    border-bottom: #999999 0.1px solid;
+}
+.list-last{
+    list-style-type: none;
+    color: #eeeeee;
+    display: flex;
+}
+.last-item-icoin{
+    font-size: 16px;
+    padding: 15px 18px 15px 18px;
+}
+.confirm{
+    width: 264px;
+    height: 48px;
+    cursor: pointer;
+    background: none;
+    border: #999999 solid 0.1px;
+    color: #999999;
+    font-size: 14px;
+    font-weight: bold;
+}
+.confirm:hover{
+    background-color: #eeeeee;
+    color: #30A8D5;
+}
