@@ -1,1 +1,1 @@
-<? include("LabS3.html");
+<? include("lab7.html");
