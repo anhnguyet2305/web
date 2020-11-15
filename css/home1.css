@@ -1,0 +1,242 @@
+.col-md-8{
+    padding: 0;
+}
+.main-left-1{
+    width: 100%;
+    height: 340px;
+    float: left;
+}
+.main-left-img{
+    width: 40%;
+    margin-top: 15px;
+    float: left;
+    overflow: hidden;
+    display: block;
+
+}
+.anh-s{
+    width: 100%;
+    transition: all 1s;
+    overflow: hidden;
+}
+.anh-s:hover{
+    transform: scale(1.2);
+}
+
+.main-left-text{
+    width: 59%;
+    margin-top: 15px;
+    padding-left: 30px;
+    float: left;
+}
+.text-top{
+    font-size: 12px;
+    float: left;
+    text-align: center;
+    padding-top: 4px;
+    color: white;
+    width: 70px;
+    height: 25px;
+    background-color: #337ab7;
+    animation-name: text-top;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+.text-top a{
+    color: white;
+}
+.text-top a:hover{
+    color: #000000;
+}
+@keyframes text-top {
+    0%  {background-color: blue;}
+    50%  {background-color: red;}
+    70%  {background-color: brown;}
+    100% {background-color: yellowgreen;}
+}
+
+.text-main{
+    float: left;
+    overflow: hidden;
+}
+.text-main a{
+    display:inline-block;
+}
+.text-main h3{
+    position: relative;
+
+}
+.text-main-a1{
+    text-decoration: none;
+    color: black;
+}
+.text-main-a1:hover{
+    color: orangered;
+}
+span::before{
+    position: relative;
+    top: 25px;
+    left: 0;
+    content: "";
+    width: 0%;
+    height: 2px;
+    display: block;
+    background-color: black;
+}
+span:hover:before{
+    background-repeat: no-repeat;
+    width: 100%;
+    transition: all 0.4s;
+}
+.text-main p{
+    font-size: 17px;
+    line-height: 1.8;
+}
+.ppp{
+    opacity: 0.6;
+}
+
+.post-block:hover .hover-line a {
+    background-size: 100% 2px
+}
+
+.author-details-block .post-block:hover .hover-line a {
+    background-size: 0 2px
+}
+
+.author-details-block .hover-line:hover a {
+    background-size: 100% 2px!important
+}
+
+.hover-line a {
+    position: relative;
+    display: inline;
+    background-image: -webkit-gradient(linear, left top, right top, from(currentColor), to(currentColor));
+    background-image: -webkit-linear-gradient(left, currentColor 0%, currentColor 100%);
+    background-image: -o-linear-gradient(left, currentColor 0%, currentColor 100%);
+    background-image: linear-gradient(to right, currentColor 0%, currentColor 100%);
+    background-size: 0 2px;
+    background-position: 0 95%;
+    -webkit-transition: background-size 0.25s cubic-bezier(.785, .135, .15, .86) 0s;
+    -o-transition: background-size 0.25s cubic-bezier(.785, .135, .15, .86) 0s;
+    transition: background-size 0.25s cubic-bezier(.785, .135, .15, .86) 0s;
+    padding: .8% 0;
+    background-repeat: no-repeat;
+    color: inherit
+}
+
+.hover-line a:hover {
+    background-size: 100% 2px
+}
+
+.axil-img-container:hover .hover-line a {
+    background-size: 100% 2px
+}
+
+.axil-team-block:hover .hover-line a {
+    background-size: 100% 2px
+}
+
+@media screen and (min-width:0 \0) {
+    .axil-latest-post .post-block {
+        display: block
+    }
+    .subscribe-popup .section-title {
+        display: block
+    }
+    .bg-grey-dark-one .hover-line a,
+    .media-caption .hover-line a,
+    .axil-img-container .hover-line a,
+    .video-container__type-2 .axil-img-container .media-body {
+        display: block!important
+    }
+    .axil-img-container.flex-height-container .media-body {
+        display: block!important;
+        position: absolute;
+        left: 0;
+        top: 440px
+    }
+    .axil-banner-cat-counter .axil-content::before {
+        content: "";
+        background: url(https://review.food.com.vn/wp-content/themes/dichvuweb/assets/css/../images/ie-blur-shadow.png);
+        background-size: 100% 100%;
+        background-position: center center;
+        bottom: -5rem
+    }
+}
+
+.related-post{
+    margin: auto;
+    /*float: left;*/
+}
+.related-post-top{
+    margin-top: 20px;
+    padding-left: 15px;
+    height: 70px;
+    width: 100%;
+}
+.related-post-top h2{
+    width: 30%;
+    margin-top: -5px;
+    float: left;
+}
+.related-post-top a{
+    width: 70%;
+    margin-left: 650px;
+    color: black;
+}
+.related-post-top a:hover{
+    /*color: #2aabd2;*/
+}
+.related-post-main{
+    height: 400px;
+}
+.related-post-main-img{
+    overflow: hidden;
+    position: relative;
+    z-index: 0;
+}
+.col-md-4{
+    width: 250px;
+    margin-left: 30px;
+    overflow: hidden;
+    padding: 0;
+}
+.anh-son{
+    transition: all 0.5s;
+    overflow: hidden;
+}
+.anh-son:hover{
+    transform: scale(1.1);
+
+}
+
+.text-a{
+    text-decoration: none;
+    display: block;
+    width: 100%;
+}
+.related-post-main-text{
+    z-index: 5;
+    padding: 20px;
+    font-size: 15px;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 50%;
+}
+.related-post-main-text h3{
+    height: 80%;
+    margin-top: -10px;
+    line-height: 1.3;
+    font-size: 20px;
+}
+.related-post-main-text a{
+    text-decoration: none;
+}
+.text-main-a2{
+    color: white;
+}
+.related-post-main-text .text-main-a2:hover{
+    color: orangered;
+}

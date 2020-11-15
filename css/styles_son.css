@@ -1,0 +1,32 @@
+.history-page-list{
+    width: 1110px;
+    line-height: 60px;
+    margin: auto;
+}
+.history-page-item{
+    color: #7B7B7B;
+}
+.history-page-item:hover{
+    color: red;
+    transition: 0.5s;
+    text-decoration: none;
+}
+.thu-muc{
+     padding-top: 60px;
+ }
+.name_thu-muc{
+    color: #FFFFFF;
+    padding: 5px 10px;
+    background-color: #007AFF;
+}
+.thu-muc2{
+    margin-top: 4px;
+ }
+.name_thu-muc2{
+    color: #FFFFFF;
+    padding: 5px 10px;
+    background-color: #007AFF;
+}
+.container--two{
+    margin-top: 80px;
+}

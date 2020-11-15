@@ -1,0 +1,145 @@
+ .col-md-4{
+    margin-left: 0px;
+    background-repeat: no-repeat;
+}
+.content{
+    width: 100%;
+    height: 500px;
+    background-color: yellow;
+    float: left;
+}
+.banner-qc{
+    float: left;
+}
+.banner-qc img{
+    width: 100%;
+    height: auto;
+}
+.bottom{
+    width: 30px;
+    height: 30px;
+    border-radius: 0px;
+    background-color: #d3d7da;
+    border-style: none;
+    text-align: center;
+    font-weight: bold;
+}
+.widget-title{
+    border-bottom: .1rem solid #d3d7da;
+    width: 100%;
+    float: left;
+}
+.owl-nav{
+    float: right;
+    margin: auto;
+    margin-bottom: 10px;
+}
+.bottom{
+    margin-left: 10px;
+}
+.fa-angle-right{
+    color: #ffffff;
+    font-size: 20px;
+}
+.fa-angle-left{
+    color: #ffffff;
+    font-size: 20px;
+}
+.block-widget{
+    float: left;
+    margin-bottom: 40px;
+    width: 100%;
+}
+.social-list{
+    width: 100%;
+    margin-right: -5px;
+}
+.social ul{
+    list-style: none;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0px;
+}
+
+.social-share{
+    width: 25%;
+    float: left;
+    padding:5px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.social-share a{
+    color: white;
+}
+.social-share .title{
+    font-size: 12px;
+}
+.social-share .counts{
+    font-weight: bold;
+}
+.btn-default{
+    height: 43px;
+    border-radius: 0px;
+}
+.post-block img{
+    width: 100px;
+    height: 100px;
+}
+.post-block-thuml{
+    margin-right: 30px;
+    float: left;
+}
+.post-block-thuml: hover{
+    background-size: cover;
+}
+.axil-post-title{
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.post-cat span{
+    color: #01abf2;
+}
+.axil-post-title a{
+    color: #0f0f0f;
+}
+.post-cat{
+    margin-bottom: 10px;
+}
+.post-meta li{
+    list-style: none;
+    color: #494e51;
+    font-size: small;
+}
+.post-meta a{
+    color: #494e51;
+    font-size: small;
+}
+.post-meta ul{
+    padding-left: 0px;
+}
+.nav-widget{
+    margin-bottom: 20px;
+}
+.post-block{
+    margin-bottom: 20px;
+}
+.category-list{
+    width: 50%;
+    padding: 5px;
+    height: 150px;
+    float: left;
+}
+.category-carousel{
+    width: 100%;
+    float: left;
+}
+.category-list-outer{
+    background-color: #8e3143;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
