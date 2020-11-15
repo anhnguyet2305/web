@@ -1,1 +1,1 @@
-<? include("lab7.html");
+<?php include("project.html");
