@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+.grid-title{
+    padding: 30px;
+    margin: 0;
+    font-size: 30px;
+    color: #56C1E9;
+    background-color: #707070;
+    text-align: center;
+}
+.lad_s14{
+    background-color: #EFEFEF;
+    width: 1170px;
+    height: 1050px;
+    margin: auto;
+}
+.lad_s14_1{
+    width: 80%;
+    margin: auto;
+}
+.item{
+    float: left;
+    width: 100%;
+    margin: 15px 0;
+}
+.item .product-name{
+    font-size: 16px;
+    font-weight: 700;
+    color:#888888;
+}
+.item .product-image{
+    margin-top: 10px;
+}
+.item .price{
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #56C1E9;
+}
